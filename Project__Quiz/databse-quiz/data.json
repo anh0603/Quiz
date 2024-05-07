@@ -1,0 +1,1286 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Nguyễn Văn A",
+      "email": "nguyenvana@gmail.com",
+      "password": "Password123",
+      "token": "AbCdE56789FgHiJkLmNo"
+    },
+    {
+      "id": "2",
+      "fullName": "Trần Thị B",
+      "email": "tranthib@gmail.com",
+      "password": "User456789",
+      "token": "PqRsT12345UvWxY6789"
+    },
+    {
+      "id": "3",
+      "fullName": "Lê Văn C",
+      "email": "levanc@gmail.com",
+      "password": "SecurePass987",
+      "token": "ZaBcD98765EfGhI2345"
+    },
+    {
+      "id": "9595",
+      "fullName": "Trần Đức Anh",
+      "email": "anhne2762003@gmail.com",
+      "password": "2762003",
+      "token": "VYYHJHlPvjLrMmAcbweZ"
+    },
+    {
+      "id": "66d2",
+      "fullName": "anht",
+      "email": "nguyenvanat@gmail.com",
+      "password": "Password123",
+      "token": "UeIBPGwVQFA1Qqi7v0bk"
+    }
+  ],
+  "topics": [
+    {
+      "id": "1",
+      "name": "HTML5"
+    },
+    {
+      "id": "2",
+      "name": "CSS3"
+    },
+    {
+      "id": "3",
+      "name": "Javascript"
+    },
+    {
+      "id": "4",
+      "name": "ReactJS"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "topicId": 1,
+      "question": "Phần mềm là gì?",
+      "answers": [
+        "Phần mềm là một tập hợp các chương trình máy tính và dữ liệu liên quan mà có thể cung cấp các chức năng cho hệ thống máy tính.",
+        "Nó bao gồm cả ứng dụng và hệ điều hành."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "2",
+      "topicId": 2,
+      "question": "CSS là viết tắt của gì?",
+      "answers": [
+        "Cascading Style Sheets",
+        "Các tập lệnh điều khiển giao diện",
+        "Khung bao cục bộ.",
+        "Nền tảng."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "3",
+      "topicId": 3,
+      "question": "JavaScript là ngôn ngữ lập trình nào?",
+      "answers": [
+        "HTML",
+        "C++",
+        "Java",
+        "Ngôn ngữ kịch bản của trình duyệt."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "4",
+      "topicId": 4,
+      "question": "ReactJS là một thư viện gì?",
+      "answers": [
+        "Thư viện quản lý dữ liệu",
+        "Thư viện xử lý sự kiện",
+        "Thư viện tạo giao diện người dùng",
+        "Thư viện mã hóa."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "5",
+      "topicId": 1,
+      "question": "Phân biệt giữa frontend và backend development?",
+      "answers": [
+        "Frontend development là việc xây dựng giao diện người dùng của ứng dụng web.",
+        "Backend development là việc xử lý logic và tương tác với cơ sở dữ liệu của ứng dụng.",
+        "Frontend chạy trên trình duyệt, còn backend chạy trên máy chủ.",
+        "Frontend thường sử dụng HTML, CSS và JavaScript, còn backend sử dụng các ngôn ngữ như Python, Java, PHP."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "6",
+      "topicId": 3,
+      "question": "Các kiểu dữ liệu cơ bản trong JavaScript là gì?",
+      "answers": [
+        "String, Number, Boolean, Null, Undefined, Symbol",
+        "Array, Object, Function",
+        "HTML, CSS, JSON, XML",
+        "Database, Server, Client, Framework"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "7",
+      "topicId": 2,
+      "question": "Định nghĩa về CSS Box Model là gì?",
+      "answers": [
+        "Mô hình hiển thị các thành phần HTML dưới dạng hộp chứa (box)",
+        "Mô hình chia cột dữ liệu thành nhiều phần bằng cách sử dụng lưới (grid)",
+        "Mô hình lưu trữ dữ liệu và quản lý truy xuất dữ liệu",
+        "Mô hình áp dụng các hiệu ứng chuyển động vào các thành phần HTML"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "8",
+      "topicId": 4,
+      "question": "Đặc điểm nổi bật của ReactJS là gì?",
+      "answers": [
+        "ReactJS sử dụng Virtual DOM để tăng hiệu suất render giao diện người dùng.",
+        "ReactJS là một thư viện mã nguồn mở được phát triển bởi Facebook.",
+        "ReactJS sử dụng JSX để kết hợp mã JavaScript và HTML.",
+        "ReactJS hỗ trợ các thành phần (components) tái sử dụng và có cách quản lý trạng thái (state) linh hoạt."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "9",
+      "topicId": 3,
+      "question": "Phương thức nào được sử dụng để gọi một hàm sau một khoảng thời gian nhất định trong JavaScript?",
+      "answers": [
+        "setTimeout()",
+        "setInterval()",
+        "callAfter()",
+        "runAfter()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "10",
+      "topicId": 2,
+      "question": "Đặc điểm của Flexbox là gì?",
+      "answers": [
+        "Flexbox là một phương pháp sắp xếp các thành phần trên giao diện theo chiều dọc.",
+        "Flexbox cho phép các thành phần tự động co dãn hoặc co lại để điều chỉnh kích thước.",
+        "Flexbox chỉ hoạt động trên các thành phần block-level.",
+        "Flexbox là một thuật toán tạo hiệu ứng lồng các thành phần trong nhau."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "11",
+      "topicId": 4,
+      "question": "React Router là gì?",
+      "answers": [
+        "Thư viện quản lý state của ReactJS",
+        "Thư viện quản lý định tuyến (routing) trong ứng dụng React",
+        "Thư viện cung cấp các component UI trong React",
+        "Thư viện xử lý AJAX trong React"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "12",
+      "topicId": 1,
+      "question": "Định nghĩa về HTML5 là gì?",
+      "answers": [
+        "HTML5 là phiên bản mới nhất của ngôn ngữ đánh dấu siêu văn bản (HTML)",
+        "HTML5 là một ngôn ngữ lập trình web",
+        "HTML5 chỉ hoạt động trên trình duyệt Internet Explorer",
+        "HTML5 là một loại hình nền động"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "13",
+      "topicId": 3,
+      "question": "JavaScript là ngôn ngữ lập trình dựa trên nguyên mẫu (prototype-based) hay dựa trên lớp (class-based)?",
+      "answers": [
+        "Prototype-based",
+        "Class-based"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "14",
+      "topicId": 3,
+      "question": "Trong JavaScript, để kiểm tra một biến có phải là một số nguyên không âm hay không, chúng ta sử dụng hàm nào?",
+      "answers": [
+        "Number.isInteger()",
+        "isNaN()",
+        "typeof()",
+        "Math.sign()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "15",
+      "topicId": 3,
+      "question": "Đặc điểm nổi bật của cú pháp 'arrow function' trong JavaScript là gì và khi nào nên sử dụng nó?",
+      "answers": [
+        "Arrow function giúp viết hàm ngắn gọn hơn bằng cú pháp mạch lạc và không cần từ khóa 'function'. Nó thường được sử dụng trong các tình huống cần xử lý hàm ngắn và không cần đến 'this' binding.",
+        "Arrow function chỉ dùng để viết hàm ngắn và không thể sử dụng trong trường hợp viết hàm phức tạp.",
+        "Arrow function không được hỗ trợ trên tất cả các trình duyệt web.",
+        "Arrow function chỉ dùng trong ES6 và không tương thích với các phiên bản JavaScript cũ hơn."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "16",
+      "topicId": 3,
+      "question": "Trong JavaScript, để kiểm tra một chuỗi có chứa một ký tự cụ thể hay không, chúng ta sử dụng phương thức nào?",
+      "answers": [
+        "includes()",
+        "charAt()",
+        "indexOf()",
+        "match()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "17",
+      "topicId": 1,
+      "question": "HTML5 có những tính năng nào mới so với HTML truyền thống?",
+      "answers": [
+        "Responsive Web Design, Canvas, Video and Audio Support, Local Storage, Geolocation, Form Enhancements, Semantic Elements",
+        "HTML5 không có tính năng nào mới so với HTML truyền thống",
+        "HTML5 chỉ có tính năng mới là Canvas",
+        "HTML5 chỉ có tính năng mới là Video and Audio Support"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "18",
+      "topicId": 1,
+      "question": "Định dạng file của một trang web HTML5 là gì?",
+      "answers": [
+        ".html",
+        ".xml",
+        ".json",
+        ".css"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "19",
+      "topicId": 1,
+      "question": "Có bao nhiêu thẻ tiêu chuẩn trong HTML5?",
+      "answers": [
+        "Có khoảng 140 thẻ tiêu chuẩn",
+        "Có khoảng 50 thẻ tiêu chuẩn",
+        "Có khoảng 20 thẻ tiêu chuẩn",
+        "Có khoảng 10 thẻ tiêu chuẩn"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "20",
+      "topicId": 1,
+      "question": "Đặc điểm nổi bật của canvas trong HTML5 là gì?",
+      "answers": [
+        "Canvas cho phép vẽ đồ họa và tạo hiệu ứng động bằng JavaScript",
+        "Canvas là một thẻ mới trong HTML5",
+        "Canvas chỉ sử dụng được cho việc hiển thị hình ảnh",
+        "Canvas không thể kết hợp với CSS"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "21",
+      "topicId": 1,
+      "question": "Để nhúng một video vào trang web, ta sử dụng thẻ nào trong HTML5?",
+      "answers": [
+        "<video>",
+        "<media>",
+        "<mp4>",
+        "<movie>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "22",
+      "topicId": 1,
+      "question": "Để tạo một đoạn văn bản có thể chỉnh sửa (editable) trong HTML5, ta sử dụng thẻ nào?",
+      "answers": [
+        "<textarea>",
+        "<input type='text'>",
+        "<edit>",
+        "<contenteditable>"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "23",
+      "topicId": 1,
+      "question": "Thuộc tính 'required' trong HTML5 được sử dụng để làm gì?",
+      "answers": [
+        "Bắt buộc người dùng phải nhập dữ liệu vào trường input",
+        "Cho phép người dùng nhập dữ liệu vào trường input nếu muốn",
+        "Tạo một trường input không cần nhập dữ liệu",
+        "Ẩn trường input khỏi người dùng"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "24",
+      "topicId": 1,
+      "question": "Định nghĩa về Web Storage trong HTML5 là gì?",
+      "answers": [
+        "Web Storage là một cơ chế lưu trữ dữ liệu trong trình duyệt web, giúp lưu trữ dữ liệu cục bộ",
+        "Web Storage là một loại hình nền động được sử dụng trong HTML5",
+        "Web Storage là một phần mềm quản lý dữ liệu",
+        "Web Storage là một cơ chế kết nối cơ sở dữ liệu trong HTML5"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "25",
+      "topicId": 1,
+      "question": "Để tạo một ô input cho người dùng nhập số, ta sử dụng kiểu dữ liệu nào trong HTML5?",
+      "answers": [
+        "number",
+        "text",
+        "input",
+        "numeric"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "26",
+      "topicId": 1,
+      "question": "Có bao nhiêu loại form validation trong HTML5 và đặc điểm của chúng là gì?",
+      "answers": [
+        "Có 3 loại: Required, Pattern, Range",
+        "Có 2 loại: Text và Number",
+        "Có 4 loại: Required, Email, Number, URL",
+        "Có 1 loại: Required"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "27",
+      "topicId": 1,
+      "question": "Cách nào dưới đây không phải là một tính năng của Geolocation API trong HTML5?",
+      "answers": [
+        "Tự động lưu trữ vị trí của người dùng",
+        "Cho phép truy xuất vị trí hiện tại của người dùng",
+        "Hỏi người dùng cho phép truy cập vị trí",
+        "Tính toán khoảng cách giữa hai điểm định vị"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "28",
+      "topicId": 1,
+      "question": "Thuộc tính 'async' khi sử dụng với thẻ <script> trong HTML5 có tác dụng gì?",
+      "answers": [
+        "Làm cho trình duyệt tải script một cách bất đồng bộ, không cần chờ script này được tải xong mới tiếp tục tải các phần tử khác của trang web",
+        "Bắt buộc trình duyệt tải script một cách đồng bộ, cần chờ script này được tải xong mới tiếp tục tải các phần tử khác của trang web",
+        "Chỉ sử dụng khi script cần tải có kích thước nhỏ",
+        "Chỉ sử dụng khi script cần tải có kích thước lớn"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "29",
+      "topicId": 1,
+      "question": "Để tạo một thanh tiến trình (progress bar) trong HTML5, ta sử dụng thẻ nào?",
+      "answers": [
+        "<progress>",
+        "<progressbar>",
+        "<meter>",
+        "<status>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "30",
+      "topicId": 1,
+      "question": "Thẻ <article> trong HTML5 được sử dụng để làm gì?",
+      "answers": [
+        "Đánh dấu một nội dung độc lập và tự đủ để hiểu được mà không cần phải xem nội dung xung quanh",
+        "Hiển thị nội dung chính của trang web",
+        "Tạo một khu vực chứa nội dung quan trọng của trang web",
+        "Định nghĩa một nội dung chính có thể tương tác được"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "31",
+      "topicId": 2,
+      "question": "CSS là viết tắt của gì?",
+      "answers": [
+        "Cascading Style Sheets",
+        "Các tập lệnh điều khiển giao diện",
+        "Khung bao cục bộ.",
+        "Nền tảng."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "32",
+      "topicId": 2,
+      "question": "CSS3 có những tính năng nào mới so với CSS truyền thống?",
+      "answers": [
+        "CSS3 có nhiều tính năng mới như Box Shadows, Text Shadows, Gradient Backgrounds, Transitions, Animations, Flexbox, Grid Layout, và nhiều tính năng khác",
+        "CSS3 không có tính năng nào mới so với CSS truyền thống",
+        "CSS3 chỉ có tính năng mới là Box Shadows",
+        "CSS3 chỉ có tính năng mới là Transitions"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "33",
+      "topicId": 2,
+      "question": "Để chọn tất cả các phần tử trong HTML, ta sử dụng cú pháp nào trong CSS?",
+      "answers": [
+        "*",
+        "all",
+        "elements",
+        "html"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "34",
+      "topicId": 2,
+      "question": "Đặc điểm của CSS Box Model là gì và nó bao gồm những phần nào?",
+      "answers": [
+        "CSS Box Model là mô hình hiển thị các thành phần HTML dưới dạng hộp chứa (box), bao gồm Content, Padding, Border, Margin",
+        "CSS Box Model là mô hình chia cột dữ liệu thành nhiều phần bằng cách sử dụng lưới (grid)",
+        "CSS Box Model là mô hình lưu trữ dữ liệu và quản lý truy xuất dữ liệu",
+        "CSS Box Model là mô hình áp dụng các hiệu ứng chuyển động vào các thành phần HTML"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "35",
+      "topicId": 2,
+      "question": "Để thay đổi màu nền của một phần tử trong CSS, ta sử dụng thuộc tính nào?",
+      "answers": [
+        "background-color",
+        "color",
+        "text-color",
+        "background"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "36",
+      "topicId": 2,
+      "question": "Có bao nhiêu loại đơn vị đo lường trong CSS và đặc điểm của mỗi loại là gì?",
+      "answers": [
+        "Có 4 loại: Pixel, Percentage, em, rem",
+        "Có 3 loại: Pixel, Percentage, Point",
+        "Có 2 loại: Pixel, Point",
+        "Có 1 loại: Pixel"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "37",
+      "topicId": 2,
+      "question": "Cú pháp nào được sử dụng để chọn tất cả các phần tử có class là 'example' trong CSS?",
+      "answers": [
+        ".example",
+        "#example",
+        "element.example",
+        "class.example"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "38",
+      "topicId": 2,
+      "question": "Để thực hiện animation trong CSS3, ta sử dụng thuộc tính nào?",
+      "answers": [
+        "@keyframes",
+        "@animation",
+        "@animate",
+        "animation"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "39",
+      "topicId": 2,
+      "question": "Đặc điểm của CSS Flexbox là gì và khi nào nên sử dụng nó?",
+      "answers": [
+        "CSS Flexbox là một mô hình layout linh hoạt, giúp sắp xếp các phần tử HTML một cách dễ dàng và linh hoạt, thích hợp cho việc xây dựng giao diện responsive",
+        "CSS Flexbox là một kiểu biến đổi hình dạng cho các phần tử HTML",
+        "CSS Flexbox là một loại hiệu ứng chuyển động trong CSS",
+        "CSS Flexbox không phải là một phần của CSS3"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "40",
+      "topicId": 2,
+      "question": "Để thay đổi kích thước của một hình ảnh trong CSS, ta sử dụng thuộc tính nào?",
+      "answers": [
+        "width, height",
+        "size",
+        "resize",
+        "scale"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "41",
+      "topicId": 2,
+      "question": "Cách nào dưới đây không phải là một phần của CSS Grid Layout?",
+      "answers": [
+        "Grid Container",
+        "Grid Item",
+        "Grid Row",
+        "Grid Column"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "42",
+      "topicId": 2,
+      "question": "Để thực hiện hiệu ứng hover trên một phần tử trong CSS, ta sử dụng pseudo-class nào?",
+      "answers": [
+        ":hover",
+        ":active",
+        ":focus",
+        ":visited"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "43",
+      "topicId": 2,
+      "question": "Thuộc tính 'overflow' trong CSS được sử dụng để làm gì?",
+      "answers": [
+        "Xác định cách xử lý nội dung của một phần tử khi nó vượt ra ngoài kích thước được định sẵn",
+        "Thiết lập hiển thị nội dung theo chiều dọc",
+        "Thiết lập hiển thị nội dung theo chiều ngang",
+        "Xác định cách xử lý nội dung của một phần tử khi nó không đủ kích thước để hiển thị"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "44",
+      "topicId": 2,
+      "question": "Định nghĩa về CSS Preprocessor là gì và tại sao nó được sử dụng?",
+      "answers": [
+        "CSS Preprocessor là một công cụ giúp biên dịch mã CSS được viết theo một ngôn ngữ tiện lợi, giúp tăng tốc độ phát triển và bảo trì mã nguồn",
+        "CSS Preprocessor là một loại chương trình soạn thảo CSS",
+        "CSS Preprocessor là một loại framework CSS",
+        "CSS Preprocessor là một công cụ giúp tạo ra animation trong CSS3"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "45",
+      "topicId": 2,
+      "question": "Đặc điểm của Media Queries trong CSS3 là gì và chúng được sử dụng để làm gì?",
+      "answers": [
+        "Media Queries là một cách để áp dụng CSS dựa trên các điều kiện về kích thước màn hình hoặc thiết bị hiển thị, giúp tạo ra giao diện responsive",
+        "Media Queries là một cách để thêm media vào trang web",
+        "Media Queries là một kiểu hiển thị cho video trong HTML5",
+        "Media Queries là một loại dữ liệu nhúng trong trang web"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "46",
+      "topicId": 3,
+      "question": "JavaScript là ngôn ngữ lập trình nào?",
+      "answers": [
+        "JavaScript là một ngôn ngữ lập trình kịch bản (scripting)",
+        "JavaScript là một ngôn ngữ lập trình máy tính",
+        "JavaScript là một ngôn ngữ lập trình sự kiện (event-driven)",
+        "JavaScript là một ngôn ngữ lập trình dành cho server"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "47",
+      "topicId": 3,
+      "question": "JavaScript có những đặc điểm nổi bật nào?",
+      "answers": [
+        "JavaScript là ngôn ngữ dễ học và linh hoạt, có thể thực thi trên trình duyệt web mà không cần cài đặt thêm phần mềm",
+        "JavaScript chỉ có thể chạy trên trình duyệt web Internet Explorer",
+        "JavaScript không thể sử dụng cho các dự án lớn",
+        "JavaScript không thể kết hợp với HTML và CSS"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "48",
+      "topicId": 3,
+      "question": "Cách nào dưới đây không phải là một cách khai báo biến trong JavaScript?",
+      "answers": [
+        "int z = 30;",
+        "var x = 10;",
+        "let y = 20;",
+        "const a = 40;"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "49",
+      "topicId": 3,
+      "question": "Để in một thông báo ra màn hình trong JavaScript, ta sử dụng hàm nào?",
+      "answers": [
+        "alert()",
+        "prompt()",
+        "console.log()",
+        "document.write()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "50",
+      "topicId": 3,
+      "question": "Đặc điểm của các biến kiểu Number trong JavaScript là gì?",
+      "answers": [
+        "Biến kiểu Number trong JavaScript có thể lưu trữ số nguyên hoặc số thập phân",
+        "Biến kiểu Number trong JavaScript chỉ có thể lưu trữ số nguyên",
+        "Biến kiểu Number trong JavaScript không thể lưu trữ số thập phân",
+        "Biến kiểu Number trong JavaScript chỉ có thể lưu trữ số thập phân"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "51",
+      "topicId": 3,
+      "question": "Có bao nhiêu loại lệnh điều kiện trong JavaScript và đặc điểm của mỗi loại là gì?",
+      "answers": [
+        "Có 3 loại: if, else if, else",
+        "Có 2 loại: if, else",
+        "Có 4 loại: if, else if, else, switch",
+        "Có 1 loại: if"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "52",
+      "topicId": 3,
+      "question": "Để khởi tạo một mảng trong JavaScript, ta sử dụng cú pháp nào?",
+      "answers": [
+        "var myArray = [];",
+        "myArray = {}",
+        "var myArray = ()",
+        "var myArray = new Array()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "53",
+      "topicId": 3,
+      "question": "Đặc điểm của vòng lặp for trong JavaScript là gì?",
+      "answers": [
+        "Vòng lặp for trong JavaScript được sử dụng để lặp qua một dãy giá trị nào đó với điều kiện xác định",
+        "Vòng lặp for trong JavaScript chỉ có thể lặp qua một mảng",
+        "Vòng lặp for trong JavaScript không thể kết hợp với câu lệnh điều kiện",
+        "Vòng lặp for trong JavaScript không thể dùng để lặp qua các phần tử của một đối tượng"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "54",
+      "topicId": 3,
+      "question": "Để gọi một hàm sau một khoảng thời gian nhất định trong JavaScript, ta sử dụng phương thức nào?",
+      "answers": [
+        "setTimeout()",
+        "setInterval()",
+        "setTime()",
+        "call()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "55",
+      "topicId": 3,
+      "question": "Cách nào dưới đây không phải là một cách tạo function trong JavaScript?",
+      "answers": [
+        "function myFunction() = {}",
+        "var myFunction = function() {}",
+        "function myFunction() {}",
+        "var myFunction = () => {}"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "56",
+      "topicId": 3,
+      "question": "Thuộc tính 'innerHTML' trong JavaScript được sử dụng để làm gì?",
+      "answers": [
+        "innerHTML được sử dụng để thay đổi nội dung HTML của một phần tử",
+        "innerHTML được sử dụng để chỉ đọc nội dung HTML của một phần tử",
+        "innerHTML được sử dụng để thêm một phần tử vào trong phần tử hiện tại",
+        "innerHTML được sử dụng để xóa nội dung HTML của một phần tử"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "57",
+      "topicId": 3,
+      "question": "Đặc điểm của JSON (JavaScript Object Notation) là gì và tại sao nó được sử dụng trong JavaScript?",
+      "answers": [
+        "JSON là một định dạng dữ liệu dựa trên JavaScript Object, dễ đọc và viết, được sử dụng để truyền tải dữ liệu giữa máy chủ và trình duyệt",
+        "JSON là một kiểu dữ liệu kiểu số trong JavaScript",
+        "JSON là một thư viện JavaScript",
+        "JSON là một kiểu dữ liệu trong CSS3"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "58",
+      "topicId": 3,
+      "question": "Cách nào dưới đây không phải là một phương thức của Array trong JavaScript?",
+      "answers": [
+        "array.length()",
+        "array.push()",
+        "array.pop()",
+        "array.join()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "59",
+      "topicId": 3,
+      "question": "Để chuyển đổi một chuỗi thành số trong JavaScript, ta sử dụng hàm nào?",
+      "answers": [
+        "parseInt()",
+        "toString()",
+        "Number()",
+        "toNumber()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "60",
+      "topicId": 3,
+      "question": "Đặc điểm của Event Handling trong JavaScript là gì và cách sử dụng chúng?",
+      "answers": [
+        "Event Handling là cách xử lý các sự kiện như click, hover, keypress trong JavaScript, giúp tương tác với người dùng",
+        "Event Handling là cách thêm animation vào các phần tử HTML trong JavaScript",
+        "Event Handling là cách xử lý lỗi trong JavaScript",
+        "Event Handling là cách tạo ra các hàm để sử dụng trong JavaScript"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "61",
+      "topicId": 4,
+      "question": "ReactJS là gì?",
+      "answers": [
+        "Framework",
+        "Library",
+        "Programming Language",
+        "Database"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "62",
+      "topicId": 4,
+      "question": "ReactJS được phát triển bởi công ty nào?",
+      "answers": [
+        "Facebook",
+        "Google",
+        "Apple",
+        "Microsoft"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "63",
+      "topicId": 4,
+      "question": "ReactJS sử dụng ngôn ngữ lập trình nào?",
+      "answers": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "C#"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "64",
+      "topicId": 4,
+      "question": "ReactJS được phát hành lần đầu tiên vào năm nào?",
+      "answers": [
+        "2010",
+        "2013",
+        "2015",
+        "2018"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "65",
+      "topicId": 4,
+      "question": "ReactJS được sử dụng để phát triển cái gì?",
+      "answers": [
+        "Ứng dụng di động",
+        "Website tĩnh",
+        "Website động",
+        "Cả 3 đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "66",
+      "topicId": 4,
+      "question": "ReactJS sử dụng nguyên tắc gì để xây dựng giao diện người dùng?",
+      "answers": [
+        "Model-View-Controller (MVC)",
+        "Model-View-ViewModel (MVVM)",
+        "Model-View-Update (MVU)",
+        "Component-Based"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "67",
+      "topicId": 4,
+      "question": "ReactJS hỗ trợ việc tạo ra giao diện linh hoạt bằng cách nào?",
+      "answers": [
+        "Component-Based",
+        "Class-Based",
+        "Prototype-Based",
+        "Inheritance-Based"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "68",
+      "topicId": 4,
+      "question": "Đặc điểm nào dưới đây không phải là một phần của ReactJS?",
+      "answers": [
+        "Việc xử lý logic máy chủ",
+        "Quản lý trạng thái (state) linh hoạt",
+        "Hỗ trợ tái sử dụng thành phần (components)",
+        "Virtual DOM"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "69",
+      "topicId": 4,
+      "question": "Thư viện nào dưới đây không phải là một phần của ReactJS?",
+      "answers": [
+        "Redux",
+        "Angular",
+        "Vue.js",
+        "Next.js"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "70",
+      "topicId": 4,
+      "question": "ReactJS sử dụng gì để tăng hiệu suất render giao diện người dùng?",
+      "answers": [
+        "Real DOM",
+        "Shadow DOM",
+        "Virtual DOM",
+        "Document Object Model (DOM)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "71",
+      "topicId": 4,
+      "question": "ReactJS hỗ trợ việc tạo component dựa trên loại nào của JavaScript?",
+      "answers": [
+        "Function",
+        "Class",
+        "Both Function and Class",
+        "Neither Function nor Class"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "72",
+      "topicId": 4,
+      "question": "React Router là gì?",
+      "answers": [
+        "Thư viện quản lý state của ReactJS",
+        "Thư viện quản lý định tuyến (routing) trong ứng dụng React",
+        "Thư viện cung cấp các component UI trong React",
+        "Thư viện xử lý AJAX trong React"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "73",
+      "topicId": 4,
+      "question": "ReactJS hỗ trợ cách nào để quản lý trạng thái (state) của ứng dụng?",
+      "answers": [
+        "useState() hook",
+        "this.setState()",
+        "Redux",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "74",
+      "topicId": 4,
+      "question": "ReactJS sử dụng gì để kết hợp mã JavaScript và HTML?",
+      "answers": [
+        "JSX",
+        "XML",
+        "JSON",
+        "HTML"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "75",
+      "topicId": 4,
+      "question": "ReactJS hỗ trợ tính năng gì để render ứng dụng trên máy chủ?",
+      "answers": [
+        "Server-side Rendering (SSR)",
+        "Client-side Rendering (CSR)",
+        "Virtual DOM Rendering",
+        "Static Rendering"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "answers": [
+    {
+      "id": "982c",
+      "userId": 1,
+      "topicId": 2,
+      "answer": [
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 7,
+          "answer": 1
+        },
+        {
+          "questionId": 10,
+          "answer": 0
+        },
+        {
+          "questionId": 31,
+          "answer": 1
+        },
+        {
+          "questionId": 32,
+          "answer": 0
+        },
+        {
+          "questionId": 33,
+          "answer": 2
+        },
+        {
+          "questionId": 34,
+          "answer": 1
+        },
+        {
+          "questionId": 35,
+          "answer": 2
+        },
+        {
+          "questionId": 36,
+          "answer": 2
+        },
+        {
+          "questionId": 37,
+          "answer": 2
+        },
+        {
+          "questionId": 38,
+          "answer": 0
+        },
+        {
+          "questionId": 39,
+          "answer": 1
+        },
+        {
+          "questionId": 40,
+          "answer": 1
+        },
+        {
+          "questionId": 41,
+          "answer": 2
+        },
+        {
+          "questionId": 42,
+          "answer": 2
+        },
+        {
+          "questionId": 43,
+          "answer": 3
+        },
+        {
+          "questionId": 44,
+          "answer": 1
+        },
+        {
+          "questionId": 45,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "5b1b",
+      "userId": 1,
+      "topicId": 2,
+      "answer": [
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 7,
+          "answer": 1
+        },
+        {
+          "questionId": 10,
+          "answer": 0
+        },
+        {
+          "questionId": 31,
+          "answer": 1
+        },
+        {
+          "questionId": 32,
+          "answer": 0
+        },
+        {
+          "questionId": 33,
+          "answer": 2
+        },
+        {
+          "questionId": 34,
+          "answer": 1
+        },
+        {
+          "questionId": 35,
+          "answer": 2
+        },
+        {
+          "questionId": 36,
+          "answer": 2
+        },
+        {
+          "questionId": 37,
+          "answer": 2
+        },
+        {
+          "questionId": 38,
+          "answer": 0
+        },
+        {
+          "questionId": 39,
+          "answer": 1
+        },
+        {
+          "questionId": 40,
+          "answer": 1
+        },
+        {
+          "questionId": 41,
+          "answer": 2
+        },
+        {
+          "questionId": 42,
+          "answer": 2
+        },
+        {
+          "questionId": 43,
+          "answer": 3
+        },
+        {
+          "questionId": 44,
+          "answer": 1
+        },
+        {
+          "questionId": 45,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "0415",
+      "userId": 1,
+      "topicId": 2,
+      "answer": []
+    },
+    {
+      "id": "b2ae",
+      "userId": 1,
+      "topicId": 3,
+      "answer": [
+        {
+          "questionId": 3,
+          "answer": 3
+        },
+        {
+          "questionId": 6,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "7420",
+      "userId": 2,
+      "topicId": 4,
+      "answer": [
+        {
+          "questionId": 4,
+          "answer": 2
+        },
+        {
+          "questionId": 8,
+          "answer": 2
+        },
+        {
+          "questionId": 11,
+          "answer": 2
+        },
+        {
+          "questionId": 61,
+          "answer": 3
+        },
+        {
+          "questionId": 62,
+          "answer": 2
+        },
+        {
+          "questionId": 63,
+          "answer": 1
+        },
+        {
+          "questionId": 64,
+          "answer": 0
+        },
+        {
+          "questionId": 65,
+          "answer": 2
+        },
+        {
+          "questionId": 66,
+          "answer": 1
+        },
+        {
+          "questionId": 67,
+          "answer": 1
+        },
+        {
+          "questionId": 68,
+          "answer": 1
+        },
+        {
+          "questionId": 69,
+          "answer": 1
+        },
+        {
+          "questionId": 70,
+          "answer": 0
+        },
+        {
+          "questionId": 71,
+          "answer": 1
+        },
+        {
+          "questionId": 72,
+          "answer": 2
+        },
+        {
+          "questionId": 73,
+          "answer": 0
+        },
+        {
+          "questionId": 74,
+          "answer": 2
+        },
+        {
+          "questionId": 75,
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "id": "1fd6",
+      "userId": 9595,
+      "topicId": 1,
+      "answer": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 12,
+          "answer": 2
+        },
+        {
+          "questionId": 17,
+          "answer": 0
+        },
+        {
+          "questionId": 18,
+          "answer": 0
+        },
+        {
+          "questionId": 19,
+          "answer": 0
+        },
+        {
+          "questionId": 20,
+          "answer": 0
+        },
+        {
+          "questionId": 21,
+          "answer": 1
+        },
+        {
+          "questionId": 22,
+          "answer": 2
+        },
+        {
+          "questionId": 23,
+          "answer": 2
+        },
+        {
+          "questionId": 24,
+          "answer": 3
+        },
+        {
+          "questionId": 25,
+          "answer": 2
+        },
+        {
+          "questionId": 26,
+          "answer": 3
+        },
+        {
+          "questionId": 27,
+          "answer": 2
+        },
+        {
+          "questionId": 28,
+          "answer": 1
+        },
+        {
+          "questionId": 29,
+          "answer": 1
+        },
+        {
+          "questionId": 30,
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

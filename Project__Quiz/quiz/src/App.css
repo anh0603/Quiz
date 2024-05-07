@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.simple-table {
+  border-collapse: collapse;
+}
+
+.simple-table th, .simple-table td {
+  border: 1px solid #ddd; /* Định dạng border */
+  padding:  12px 28px; /* Định dạng khoảng cách giữa border và nội dung */
+  text-align: left; /* Canh lề nội dung */
+  width: 100px;
+}
+ 
+.result__tag {
+  font-weight: 600;
+  background-color: #F7DCB9;
+  padding: 5px;
+  width: 50px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.result__tag--true {
+  color: #41B06E;
+}
+.result__tag--false {
+  color: #FA7070;
+}
+
+.result__item--selected {
+  color: #FA7070;
+}
+.result__item--correct {
+  color: #41B06E;
+}
+button {
+  width: 90px;
+  height: 30px;
+  background-color: #D8AE7E;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: #FFBB70;
+  color: #282c34;
+  transform: scale(1.2);
+  
+}
+
+.send {
+  margin-top: 15px;
+}
+
+.center {
+  text-align: center;
+  border: 1px solid gray;
+  width: 300px;
+  padding: 10px;
+  line-height: 30px;
+  left: 50%;
+  position: relative;
+  right: 50%;
+  transform: translate(-50%);
+  border-radius: 10px;
+}
